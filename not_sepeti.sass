@@ -1,0 +1,107 @@
+
+
+\:root
+    --main-color: rgb(238, 112, 10)
+    --main-color-light:#ffc76d
+    --main-color-blue:rgb(100, 201, 207)
+    --main-color-blue-light: #53a7ac
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+body
+    font-family: 'Scheherazade New', serif
+    background-image: linear-gradient(to bottom right, rgb(255, 183, 64), rgb(83, 167, 172))
+    background-repeat: no-repeat
+    min-height: 100vh
+
+    .main-title
+        font-size: 2.6rem
+        color: #222
+
+    .header,.gorev-form
+        min-height: 20vh
+        margin: 0.5rem
+        display: flex
+        justify-content: center
+        align-items: center
+        
+    
+
+        .form-item
+            font-size: 1.5rem
+            padding: .7rem
+            border: none
+            outline: none
+            background-color: white
+        .input-gorev
+            border-radius: .3rem
+            
+        .btn-gorev-ekle
+            color:#ee700a
+            cursor: pointer
+            border-radius: .3rem
+            border-left: 1px solid #ddd
+        .btn-gorev-ekle:hover
+            color: white
+            background-color: #ee700a
+
+    .gorev-container
+        display: flex
+        justify-content: center
+        align-items: center
+
+        .gorev-listesi
+            list-style: none
+            min-width: 40% //o anda bulunduğu sayfanın genişliğinin %40 nı alır
+           
+
+            .gorev-item
+                display: flex
+                justify-content: center
+                align-items: center
+                margin: .5rem
+                font-size: 1.3rem
+                transition: .5s ease-in-out
+
+                .gorev-tanim
+                    flex: 1
+                    background-color: white
+                    padding: .5rem
+
+                .gorev-btn
+                    background-color:#ee700a
+
+                    outline: none
+                    border: none
+                    font-size: 1.2rem
+                    padding: 1.176rem
+
+                .gorev-btn-sil
+                    background-color: rgb(255,54,54)
+            .gorev-tamamlandi
+                    text-decoration: line-through
+                    opacity: 0.5
+                    .far
+                        pointer-events: none
+                        
+            .kaybol
+                transform: scale(0)
+            
+        
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+

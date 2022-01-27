@@ -1,0 +1,132 @@
+:root {
+  --main-color: rgb(238, 112, 10);
+  --main-color-light:#ffc76d {}
+    --main-color-blue:rgb(100, 201, 207) {}
+    --main-color-blue-light: #53a7ac;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Scheherazade New', serif;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb740), to(#53a7ac));
+  background-image: linear-gradient(to bottom right, #ffb740, #53a7ac);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+body .main-title {
+  font-size: 2.6rem;
+  color: #222;
+}
+
+body .header, body .gorev-form {
+  min-height: 20vh;
+  margin: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .header .form-item, body .gorev-form .form-item {
+  font-size: 1.5rem;
+  padding: .7rem;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+body .header .input-gorev, body .gorev-form .input-gorev {
+  border-radius: .3rem;
+}
+
+body .header .btn-gorev-ekle, body .gorev-form .btn-gorev-ekle {
+  color: #ee700a;
+  cursor: pointer;
+  border-radius: .3rem;
+  border-left: 1px solid #ddd;
+}
+
+body .header .btn-gorev-ekle:hover, body .gorev-form .btn-gorev-ekle:hover {
+  color: white;
+  background-color: #ee700a;
+}
+
+body .gorev-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .gorev-container .gorev-listesi {
+  list-style: none;
+  min-width: 40%;
+}
+
+body .gorev-container .gorev-listesi .gorev-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: .5rem;
+  font-size: 1.3rem;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+body .gorev-container .gorev-listesi .gorev-item .gorev-tanim {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: white;
+  padding: .5rem;
+}
+
+body .gorev-container .gorev-listesi .gorev-item .gorev-btn {
+  background-color: #ee700a;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  padding: 1.176rem;
+}
+
+body .gorev-container .gorev-listesi .gorev-item .gorev-btn-sil {
+  background-color: #ff3636;
+}
+
+body .gorev-container .gorev-listesi .gorev-tamamlandi {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+body .gorev-container .gorev-listesi .gorev-tamamlandi .far {
+  pointer-events: none;
+}
+
+body .gorev-container .gorev-listesi .kaybol {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+/*# sourceMappingURL=not_sepeti.css.map */
